@@ -1,9 +1,9 @@
 import logging
 from datetime import datetime
 import os
-# import pandas as pd
-# from housing.constant import get_current_time_stamp 
-LOG_DIR="logs"
+import pandas as pd
+from housing.constant import get_current_time_stamp 
+LOG_DIR="housing_logs"
 
 def get_log_file_name():
     return f"log_{get_current_time_stamp()}.log"
